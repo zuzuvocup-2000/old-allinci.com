@@ -1,0 +1,2410 @@
+:root {
+  --vh: 100vh;
+}
+
+/* latin-ext */
+@font-face {
+  font-family: 'Great Vibes';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Great Vibes'), local('GreatVibes-Regular'), url(https://fonts.gstatic.com/s/greatvibes/v7/RWmMoKWR9v4ksMfaWd_JN9XLiaQ6DQ.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Great Vibes';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Great Vibes'), local('GreatVibes-Regular'), url(https://fonts.gstatic.com/s/greatvibes/v7/RWmMoKWR9v4ksMfaWd_JN9XFiaQ.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Raleway';
+  font-style: italic;
+  font-weight: 100;
+  src: url(https://fonts.gstatic.com/s/raleway/v15/1Ptsg8zYS_SKggPNyCg4QIFqPfE.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Raleway';
+  font-style: italic;
+  font-weight: 100;
+  src: url(https://fonts.gstatic.com/s/raleway/v15/1Ptsg8zYS_SKggPNyCg4SYFqPfE.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Raleway';
+  font-style: italic;
+  font-weight: 100;
+  src: url(https://fonts.gstatic.com/s/raleway/v15/1Ptsg8zYS_SKggPNyCg4QoFqPfE.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Raleway';
+  font-style: italic;
+  font-weight: 100;
+  src: url(https://fonts.gstatic.com/s/raleway/v15/1Ptsg8zYS_SKggPNyCg4Q4FqPfE.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Raleway';
+  font-style: italic;
+  font-weight: 100;
+  src: url(https://fonts.gstatic.com/s/raleway/v15/1Ptsg8zYS_SKggPNyCg4TYFq.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Raleway';
+  font-style: italic;
+  font-weight: 200;
+  src: url(https://fonts.gstatic.com/s/raleway/v15/1Ptsg8zYS_SKggPNyCg4QIFqPfE.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Raleway';
+  font-style: italic;
+  font-weight: 200;
+  src: url(https://fonts.gstatic.com/s/raleway/v15/1Ptsg8zYS_SKggPNyCg4SYFqPfE.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Raleway';
+  font-style: italic;
+  font-weight: 200;
+  src: url(https://fonts.gstatic.com/s/raleway/v15/1Ptsg8zYS_SKggPNyCg4QoFqPfE.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Raleway';
+  font-style: italic;
+  font-weight: 200;
+  src: url(https://fonts.gstatic.com/s/raleway/v15/1Ptsg8zYS_SKggPNyCg4Q4FqPfE.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Raleway';
+  font-style: italic;
+  font-weight: 200;
+  src: url(https://fonts.gstatic.com/s/raleway/v15/1Ptsg8zYS_SKggPNyCg4TYFq.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Raleway';
+  font-style: italic;
+  font-weight: 300;
+  src: url(https://fonts.gstatic.com/s/raleway/v15/1Ptsg8zYS_SKggPNyCg4QIFqPfE.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Raleway';
+  font-style: italic;
+  font-weight: 300;
+  src: url(https://fonts.gstatic.com/s/raleway/v15/1Ptsg8zYS_SKggPNyCg4SYFqPfE.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Raleway';
+  font-style: italic;
+  font-weight: 300;
+  src: url(https://fonts.gstatic.com/s/raleway/v15/1Ptsg8zYS_SKggPNyCg4QoFqPfE.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Raleway';
+  font-style: italic;
+  font-weight: 300;
+  src: url(https://fonts.gstatic.com/s/raleway/v15/1Ptsg8zYS_SKggPNyCg4Q4FqPfE.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Raleway';
+  font-style: italic;
+  font-weight: 300;
+  src: url(https://fonts.gstatic.com/s/raleway/v15/1Ptsg8zYS_SKggPNyCg4TYFq.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Raleway';
+  font-style: italic;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/raleway/v15/1Ptsg8zYS_SKggPNyCg4QIFqPfE.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Raleway';
+  font-style: italic;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/raleway/v15/1Ptsg8zYS_SKggPNyCg4SYFqPfE.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Raleway';
+  font-style: italic;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/raleway/v15/1Ptsg8zYS_SKggPNyCg4QoFqPfE.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Raleway';
+  font-style: italic;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/raleway/v15/1Ptsg8zYS_SKggPNyCg4Q4FqPfE.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Raleway';
+  font-style: italic;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/raleway/v15/1Ptsg8zYS_SKggPNyCg4TYFq.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Raleway';
+  font-style: italic;
+  font-weight: 500;
+  src: url(https://fonts.gstatic.com/s/raleway/v15/1Ptsg8zYS_SKggPNyCg4QIFqPfE.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Raleway';
+  font-style: italic;
+  font-weight: 500;
+  src: url(https://fonts.gstatic.com/s/raleway/v15/1Ptsg8zYS_SKggPNyCg4SYFqPfE.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Raleway';
+  font-style: italic;
+  font-weight: 500;
+  src: url(https://fonts.gstatic.com/s/raleway/v15/1Ptsg8zYS_SKggPNyCg4QoFqPfE.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Raleway';
+  font-style: italic;
+  font-weight: 500;
+  src: url(https://fonts.gstatic.com/s/raleway/v15/1Ptsg8zYS_SKggPNyCg4Q4FqPfE.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Raleway';
+  font-style: italic;
+  font-weight: 500;
+  src: url(https://fonts.gstatic.com/s/raleway/v15/1Ptsg8zYS_SKggPNyCg4TYFq.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Raleway';
+  font-style: italic;
+  font-weight: 600;
+  src: url(https://fonts.gstatic.com/s/raleway/v15/1Ptsg8zYS_SKggPNyCg4QIFqPfE.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Raleway';
+  font-style: italic;
+  font-weight: 600;
+  src: url(https://fonts.gstatic.com/s/raleway/v15/1Ptsg8zYS_SKggPNyCg4SYFqPfE.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Raleway';
+  font-style: italic;
+  font-weight: 600;
+  src: url(https://fonts.gstatic.com/s/raleway/v15/1Ptsg8zYS_SKggPNyCg4QoFqPfE.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Raleway';
+  font-style: italic;
+  font-weight: 600;
+  src: url(https://fonts.gstatic.com/s/raleway/v15/1Ptsg8zYS_SKggPNyCg4Q4FqPfE.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Raleway';
+  font-style: italic;
+  font-weight: 600;
+  src: url(https://fonts.gstatic.com/s/raleway/v15/1Ptsg8zYS_SKggPNyCg4TYFq.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Raleway';
+  font-style: italic;
+  font-weight: 700;
+  src: url(https://fonts.gstatic.com/s/raleway/v15/1Ptsg8zYS_SKggPNyCg4QIFqPfE.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Raleway';
+  font-style: italic;
+  font-weight: 700;
+  src: url(https://fonts.gstatic.com/s/raleway/v15/1Ptsg8zYS_SKggPNyCg4SYFqPfE.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Raleway';
+  font-style: italic;
+  font-weight: 700;
+  src: url(https://fonts.gstatic.com/s/raleway/v15/1Ptsg8zYS_SKggPNyCg4QoFqPfE.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Raleway';
+  font-style: italic;
+  font-weight: 700;
+  src: url(https://fonts.gstatic.com/s/raleway/v15/1Ptsg8zYS_SKggPNyCg4Q4FqPfE.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Raleway';
+  font-style: italic;
+  font-weight: 700;
+  src: url(https://fonts.gstatic.com/s/raleway/v15/1Ptsg8zYS_SKggPNyCg4TYFq.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Raleway';
+  font-style: italic;
+  font-weight: 800;
+  src: url(https://fonts.gstatic.com/s/raleway/v15/1Ptsg8zYS_SKggPNyCg4QIFqPfE.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Raleway';
+  font-style: italic;
+  font-weight: 800;
+  src: url(https://fonts.gstatic.com/s/raleway/v15/1Ptsg8zYS_SKggPNyCg4SYFqPfE.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Raleway';
+  font-style: italic;
+  font-weight: 800;
+  src: url(https://fonts.gstatic.com/s/raleway/v15/1Ptsg8zYS_SKggPNyCg4QoFqPfE.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Raleway';
+  font-style: italic;
+  font-weight: 800;
+  src: url(https://fonts.gstatic.com/s/raleway/v15/1Ptsg8zYS_SKggPNyCg4Q4FqPfE.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Raleway';
+  font-style: italic;
+  font-weight: 800;
+  src: url(https://fonts.gstatic.com/s/raleway/v15/1Ptsg8zYS_SKggPNyCg4TYFq.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Raleway';
+  font-style: italic;
+  font-weight: 900;
+  src: url(https://fonts.gstatic.com/s/raleway/v15/1Ptsg8zYS_SKggPNyCg4QIFqPfE.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Raleway';
+  font-style: italic;
+  font-weight: 900;
+  src: url(https://fonts.gstatic.com/s/raleway/v15/1Ptsg8zYS_SKggPNyCg4SYFqPfE.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Raleway';
+  font-style: italic;
+  font-weight: 900;
+  src: url(https://fonts.gstatic.com/s/raleway/v15/1Ptsg8zYS_SKggPNyCg4QoFqPfE.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Raleway';
+  font-style: italic;
+  font-weight: 900;
+  src: url(https://fonts.gstatic.com/s/raleway/v15/1Ptsg8zYS_SKggPNyCg4Q4FqPfE.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Raleway';
+  font-style: italic;
+  font-weight: 900;
+  src: url(https://fonts.gstatic.com/s/raleway/v15/1Ptsg8zYS_SKggPNyCg4TYFq.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 100;
+  src: url(https://fonts.gstatic.com/s/raleway/v15/1Ptug8zYS_SKggPNyCAIT5lu.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 100;
+  src: url(https://fonts.gstatic.com/s/raleway/v15/1Ptug8zYS_SKggPNyCkIT5lu.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 100;
+  src: url(https://fonts.gstatic.com/s/raleway/v15/1Ptug8zYS_SKggPNyCIIT5lu.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 100;
+  src: url(https://fonts.gstatic.com/s/raleway/v15/1Ptug8zYS_SKggPNyCMIT5lu.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 100;
+  src: url(https://fonts.gstatic.com/s/raleway/v15/1Ptug8zYS_SKggPNyC0ITw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 200;
+  src: url(https://fonts.gstatic.com/s/raleway/v15/1Ptug8zYS_SKggPNyCAIT5lu.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 200;
+  src: url(https://fonts.gstatic.com/s/raleway/v15/1Ptug8zYS_SKggPNyCkIT5lu.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 200;
+  src: url(https://fonts.gstatic.com/s/raleway/v15/1Ptug8zYS_SKggPNyCIIT5lu.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 200;
+  src: url(https://fonts.gstatic.com/s/raleway/v15/1Ptug8zYS_SKggPNyCMIT5lu.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 200;
+  src: url(https://fonts.gstatic.com/s/raleway/v15/1Ptug8zYS_SKggPNyC0ITw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 300;
+  src: url(https://fonts.gstatic.com/s/raleway/v15/1Ptug8zYS_SKggPNyCAIT5lu.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 300;
+  src: url(https://fonts.gstatic.com/s/raleway/v15/1Ptug8zYS_SKggPNyCkIT5lu.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 300;
+  src: url(https://fonts.gstatic.com/s/raleway/v15/1Ptug8zYS_SKggPNyCIIT5lu.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 300;
+  src: url(https://fonts.gstatic.com/s/raleway/v15/1Ptug8zYS_SKggPNyCMIT5lu.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 300;
+  src: url(https://fonts.gstatic.com/s/raleway/v15/1Ptug8zYS_SKggPNyC0ITw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/raleway/v15/1Ptug8zYS_SKggPNyCAIT5lu.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/raleway/v15/1Ptug8zYS_SKggPNyCkIT5lu.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/raleway/v15/1Ptug8zYS_SKggPNyCIIT5lu.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/raleway/v15/1Ptug8zYS_SKggPNyCMIT5lu.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/raleway/v15/1Ptug8zYS_SKggPNyC0ITw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 500;
+  src: url(https://fonts.gstatic.com/s/raleway/v15/1Ptug8zYS_SKggPNyCAIT5lu.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 500;
+  src: url(https://fonts.gstatic.com/s/raleway/v15/1Ptug8zYS_SKggPNyCkIT5lu.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 500;
+  src: url(https://fonts.gstatic.com/s/raleway/v15/1Ptug8zYS_SKggPNyCIIT5lu.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 500;
+  src: url(https://fonts.gstatic.com/s/raleway/v15/1Ptug8zYS_SKggPNyCMIT5lu.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 500;
+  src: url(https://fonts.gstatic.com/s/raleway/v15/1Ptug8zYS_SKggPNyC0ITw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 600;
+  src: url(https://fonts.gstatic.com/s/raleway/v15/1Ptug8zYS_SKggPNyCAIT5lu.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 600;
+  src: url(https://fonts.gstatic.com/s/raleway/v15/1Ptug8zYS_SKggPNyCkIT5lu.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 600;
+  src: url(https://fonts.gstatic.com/s/raleway/v15/1Ptug8zYS_SKggPNyCIIT5lu.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 600;
+  src: url(https://fonts.gstatic.com/s/raleway/v15/1Ptug8zYS_SKggPNyCMIT5lu.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 600;
+  src: url(https://fonts.gstatic.com/s/raleway/v15/1Ptug8zYS_SKggPNyC0ITw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://fonts.gstatic.com/s/raleway/v15/1Ptug8zYS_SKggPNyCAIT5lu.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://fonts.gstatic.com/s/raleway/v15/1Ptug8zYS_SKggPNyCkIT5lu.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://fonts.gstatic.com/s/raleway/v15/1Ptug8zYS_SKggPNyCIIT5lu.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://fonts.gstatic.com/s/raleway/v15/1Ptug8zYS_SKggPNyCMIT5lu.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://fonts.gstatic.com/s/raleway/v15/1Ptug8zYS_SKggPNyC0ITw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 800;
+  src: url(https://fonts.gstatic.com/s/raleway/v15/1Ptug8zYS_SKggPNyCAIT5lu.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 800;
+  src: url(https://fonts.gstatic.com/s/raleway/v15/1Ptug8zYS_SKggPNyCkIT5lu.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 800;
+  src: url(https://fonts.gstatic.com/s/raleway/v15/1Ptug8zYS_SKggPNyCIIT5lu.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 800;
+  src: url(https://fonts.gstatic.com/s/raleway/v15/1Ptug8zYS_SKggPNyCMIT5lu.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 800;
+  src: url(https://fonts.gstatic.com/s/raleway/v15/1Ptug8zYS_SKggPNyC0ITw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 900;
+  src: url(https://fonts.gstatic.com/s/raleway/v15/1Ptug8zYS_SKggPNyCAIT5lu.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 900;
+  src: url(https://fonts.gstatic.com/s/raleway/v15/1Ptug8zYS_SKggPNyCkIT5lu.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 900;
+  src: url(https://fonts.gstatic.com/s/raleway/v15/1Ptug8zYS_SKggPNyCIIT5lu.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 900;
+  src: url(https://fonts.gstatic.com/s/raleway/v15/1Ptug8zYS_SKggPNyCMIT5lu.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 900;
+  src: url(https://fonts.gstatic.com/s/raleway/v15/1Ptug8zYS_SKggPNyC0ITw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin */
+@font-face {
+  font-family: 'Rochester';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Rochester Regular'), local('Rochester-Regular'), url(https://fonts.gstatic.com/s/rochester/v10/6ae-4KCqVa4Zy6Fif-UC2FHX.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+
+
+ :root {
+    /*--primary: #291571;*/
+
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+
+    --mg: 25px;
+    --pd: 25px;
+}
+
+* {
+    white-space: normal;
+    word-wrap: break-word
+}
+/* FONT FACE */
+@font-face {
+	font-family: 'Pe-icon-7-stroke';
+	src:url('fonts/Icon-font-7/pe-icon-7-stroke/fonts/Pe-icon-7-stroke.eot?d7yf1v');
+	src:url('fonts/Icon-font-7/pe-icon-7-stroke/fonts/Pe-icon-7-stroke.eot?#iefixd7yf1v') format('embedded-opentype'),
+		url('fonts/Icon-font-7/pe-icon-7-stroke/fonts/Pe-icon-7-stroke.woff?d7yf1v') format('woff'),
+		url('fonts/Icon-font-7/pe-icon-7-stroke/fonts/Pe-icon-7-stroke.ttf?d7yf1v') format('truetype'),
+		url('fonts/Icon-font-7/pe-icon-7-stroke/fonts/Pe-icon-7-stroke.svg?d7yf1v#Pe-icon-7-stroke') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Open Sans';
+	src: url("fonts/Open Sans/opensans-light-webfont.ttf") format("truetype");
+	font-weight: 300;
+	font-style: normal;
+}
+@font-face {
+    font-family: 'Open Sans';
+    src: url("fonts/OpenSans.eot");
+    src: url("fonts/OpenSans.eot?#iefix") format("embedded-opentype"), url("fonts/OpenSans.woff2") format("woff2"), url("fonts/OpenSans.woff") format("woff"), url("fonts/OpenSans.ttf") format("truetype"), url("fonts/OpenSans.svg#OpenSans") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+	font-family: 'Open Sans';
+	src: url("fonts/OpenSans-Italic.eot");
+	src: url("fonts/OpenSans-Italic.eot?#iefix") format("embedded-opentype"), url("fonts/OpenSans-Italic.woff2") format("woff2"), url("fonts/OpenSans-Italic.woff") format("woff"), url("fonts/OpenSans-Italic.ttf") format("truetype"), url("fonts/OpenSans-Italic.svg#OpenSans-Italic") format("svg");
+	font-weight: normal;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Open Sans';
+	src: url("fonts/OpenSans-Bold.eot");
+	src: url("fonts/OpenSans-Bold.eot?#iefix") format("embedded-opentype"), url("fonts/OpenSans-Bold.woff2") format("woff2"), url("fonts/OpenSans-Bold.woff") format("woff"), url("fonts/OpenSans-Bold.ttf") format("truetype"), url("fonts/OpenSans-Bold.svg#OpenSans-Bold") format("svg");
+	font-weight: 700;
+	font-style: normal;
+}
+
+body {
+    background-color: #fff;
+    color: #363636;
+    font: 400 14px Open Sans, 'Arial';
+    line-height: 1.9;
+}
+
+@media (min-width: 1220px){
+	.uk-container {
+	    max-width: 1200px;
+		padding: 0;
+	}
+}
+
+@media (max-width: 959px){
+	.uk-container{
+		padding: 0 10px;
+	}
+	.uk-container-1{
+		padding: 0;
+	}
+}
+
+/*============================= general ================================*/
+.bg_white{
+	background: #fff;
+}
+.mb-common{
+	margin-bottom: 25px;
+}
+
+/* heading-1 : CHỮ HOA */
+.heading-1{
+	margin: 0;
+}
+.heading-1>*{
+	/*display: inline-block;*/
+	font-size: 25px;
+	color: var(--primary);
+	line-height: 1.5;
+	text-transform: uppercase; 
+	font-weight: 600;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.heading-1.style-1>*{
+	/*display: inline-block;*/
+	font-size: 18px;
+	color: #262626;
+	line-height: 1.5;
+	text-transform: uppercase;
+	font-weight: 500;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+
+/* heading-2 : Chữ Cái Đầu Viết Hoa */
+.heading-2{
+	margin: 0;
+}
+.heading-2>*{
+	/*display: inline-block;*/
+	font-size: 18px;
+	color: #000;
+	line-height: 1.5;
+	text-transform: capitalize;
+	font-weight: 600;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.price-contact{
+    color: #ff0000;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* ============== ht2109_panel ================================*/
+    .ht2109_panel{
+        padding: 30px 0;
+    }
+
+    .ht2109_panel .panel-head {
+        position: relative;
+        margin-bottom: 15px;
+        /* border-bottom: 1px solid #ccc; */
+    }
+
+    .ht2109_panel .subtitle {
+        text-transform: uppercase;
+        color: #657786;
+        position: relative;
+        display: inline-block;
+        padding: 0px 40px;
+        font-weight: 600;
+        font-size: 11px;
+        font-family: "Montserrat", sans-serif; 
+    }
+    .ht2109_panel .subtitle:before {
+        content: "";
+        width: 30px;
+        height: 2px;
+        background: #eee;
+        position: absolute;
+        top: 50%;
+        margin-top: 0px;
+        left: 0; 
+    }
+    .ht2109_panel .subtitle:after {
+        content: "";
+        width: 30px;
+        height: 2px;
+        background: #eee;
+        position: absolute;
+        top: 50%;
+        margin-top: 0px;
+        right: 0;
+    }
+
+@media (min-width: 960px) {
+   
+}
+@media (max-width: 959px) {
+   	.ht2109_panel {
+	    padding: 50px 0;
+	}
+}
+@media (max-width: 767px) {
+    .ht2109_panel {
+	    padding: 30px 0;
+	}
+}
+@media (max-width: 599px) {
+
+}
+@media (max-width: 479px) {
+
+}
+@media (max-width: 374px) {
+
+}
+
+/* ===== HEADER STYLE ===== */
+/*========================================= PC-HEADER ==================================*/
+.pc-header{
+    background: #fff;
+    -webkit-box-shadow: 0 2px 3px -2px #777;
+    -moz-box-shadow: 0 2px 3px -2px #777;
+    box-shadow: 0 2px 3px -2px #777;
+}
+
+.pc-header .topbar {
+    position: relative;
+    /*padding: 10px 0;*/
+    font-size: 13px;
+    line-height: 20px;
+    color: #707070;
+    background: #fff;
+}
+
+.hd-contact>li{
+	margin-right: 30px;
+}
+.hd-contact a {
+    display: inline-block;
+    font-size: 14px;
+    color: #707070;
+    /* text-shadow: 0 1px 0 rgba(0,0,0,0.18); */
+    /* text-transform: uppercase; */
+}
+
+.hd-contact a:hover {
+	color: var(--color);
+}
+
+.hd-contact i {
+	margin-right: 5px;
+	color: var(--color);
+}
+
+.pc-header .upper {
+    /*padding: 15px 0;*/
+    /*background: #fff;*/
+}
+
+.pc-header.uk-active .upper{
+	/*padding: 5px 0;*/
+	/*background: #000;*/
+}
+
+.pc-header .logo {
+    width: 245px;
+}
+
+.hd-welcome{}
+.hd-welcome .slogan>*{
+	display: inline-block;
+	color: #fff;
+	margin-left: 20px;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 25px;
+}
+
+/*.hd-toolbox*/
+.hd-toolbox{}
+._ht2109_btn {
+    background: #e4405f;
+    transition: 0.3s all;
+    padding: 18px 35px;
+    border-radius: 0;
+    font-size: 15px;
+    font-weight: 500;
+    color: #fff;
+}
+
+._ht2109_btn>*{
+	display: inline-block;
+    color: #fff;
+}
+._ht2109_btn .fa{
+	margin-right: 3px;
+}
+
+.hd-toolbox ._ht2109_btn:hover{
+    background: #61ce70;
+    transform: scale(1.1);
+}
+
+/*hd-lang*/
+.pc-header .hd-lang{}
+.pc-header .hd-lang>*.active{
+	color: #0070c1;
+	border: 1px solid #0070c1;
+	border-radius: 3px;
+}
+.pc-header .hd-lang>*{
+	display: inline-block;
+	text-transform: uppercase;
+	padding: 3px;
+	color: #737373;
+}
+
+.pc-header .hd-lang>*:not(:last-child){
+	margin-right: 5px;
+}
+
+
+/* ######################## Header for mobile ######################## */
+	.mobile-header {
+		position: relative;
+		z-index: 5;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+    background: #fff;
+
+	}
+	.mobile-header .upper {
+		padding: 10px 5px;
+		position: relative;
+		text-align: center;
+	}
+	.mobile-header .upper .moblie-menu-btn {left: 5px;}
+	.mobile-header .logo {display: inline-block;}
+	.mobile-header .logo a {width: 180px;}
+	.mobile-header .lower {
+		position: relative;
+		padding: 5px;
+		background: #fff;
+		border-top: 1px solid #e1e1e1;
+		border-bottom: 1px solid #e1e1e1;
+	}
+	.mobile-search .form {
+		position: relative;
+		padding-right: 60px;
+	}
+	.mobile-search .form .input-text {
+		display: block;
+		height: 32px;
+		background: #fff;
+		font-size: 13px;
+		line-height: 32px;
+		color: #000;
+		border: 1px solid #990100;
+		-webkit-box-shadow: inset 0 0 5px rgba(0,0,0,.12);
+		-moz-box-shadow: inset 0 0 5px rgba(0,0,0,.12);
+		-ms-box-shadow: inset 0 0 5px rgba(0,0,0,.12);
+		-o-box-shadow: inset 0 0 5px rgba(0,0,0,.12);
+		box-shadow: inset 0 0 5px rgba(0,0,0,.12);
+	}
+    .mobile-search .form .btn-submit {
+        display: block;
+        position: absolute;
+        height: 32px;
+        width: 60px;
+        top: 0px;
+        left: initial;
+        right: 0px;
+        /*background: #990100 url(img/icon_search.png) 50% 50% no-repeat;*/
+        border: 1px solid #990100;
+        cursor: pointer;
+        color: #fff;
+        /*text-indent: -99999px;*/
+    }
+	.mobile-search .form .input-text::-webkit-input-placeholder {
+	    color: #999;
+	    font-size: 13px;
+	}
+	.mobile-search .form .input-text::-moz-placeholder {
+	    color: #999;
+	    font-size: 13px;
+	}
+	.mobile-search .form .input-text:-ms-input-placeholder {
+	    color: #999;
+	    font-size: 13px;
+	}
+	.mobile-search .form .input-text:-moz-placeholder {
+	    color: #999;
+	    font-size: 13px;
+	}
+	.mobile-hotline {
+		display: block;
+		position: absolute;
+		right: 5px;
+		top: 50%;
+		-webkit-transform: translate(0, -50%);
+		-moz-transform: translate(0, -50%);
+		-ms-transform: translate(0, -50%);
+		-o-transform: translate(0, -50%);
+		transform: translate(0, -50%);
+	}
+	.mobile-hotline .value {
+		display: block;
+		width: 13px;
+		height: 26px;
+		background: url(img/icon_mobile_phone.png) center;
+		-webkit-background-size: 13px 26px;
+		-moz-background-size: 13px 26px;
+		-ms-background-size: 13px 26px;
+		-o-background-size: 13px 26px;
+		background-size: 13px 26px;
+		text-indent: -99999px;
+	}
+	/*.mobile-search .form .btn-submit,*/
+	.moblie-menu-btn>*,
+	.moblie-menu-btn>:after, .moblie-menu-btn>:before{
+		background-color: #e4405f;
+	}
+
+	.mobile-search .form .btn-submit{
+		background-color: #e4405f;
+	}
+
+	.mobile-search .form .input-text,
+	.mobile-search .form .btn-submit{
+		border-color: #e4405f;
+	}
+	
+
+	.mobile-cart {
+	    display: block;
+	    position: absolute;
+	    left: initial;
+	    right: 25px;
+	    top: 50%;
+	    width: 22px;
+	    height: 22px;
+	    margin-top: -11px;
+	    background: url(img/icon_cart_mobi.png) 0px 0px no-repeat;
+	    z-index: 5;
+	}
+
+	.mobile-cart .quantity {
+	    display: block;
+	    position: absolute;
+	    width: 15px;
+	    height: 22px;
+	    left: initial;
+	    right: -17px;
+	    bottom: -6px;
+	    /* transform: translate(0, 50%); */
+	    /* background: #ffc000; */
+	    -webkit-border-radius: 50%;
+	    -moz-border-radius: 50%;
+	    -ms-border-radius: 50%;
+	    -o-border-radius: 50%;
+	    border-radius: 50%;
+	    color: #fff;
+	    font-size: 12px;
+	    font-weight: bold;
+	    line-height: 22px;
+	    text-align: left;
+	    /* vertical-align: bottom; */
+	}
+	
+
+	.hd-cart {
+	    display: block;
+	    position: relative;
+	    font-size: 18px;
+	    color: #fff;
+	    margin: 0 20px 0 15px;
+	}
+
+	.hd-cart .quantity {
+	    display: block;
+	    position: absolute;
+	    width: 15px;
+	    height: 22px;
+	    left: initial;
+	    right: -17px;
+	    bottom: 100%;
+	    transform: translate(0, 50%); 
+	    /* background: #ffc000; */
+	    -webkit-border-radius: 50%;
+	    -moz-border-radius: 50%;
+	    -ms-border-radius: 50%;
+	    -o-border-radius: 50%;
+	    border-radius: 50%;
+	    color: #fff;
+	    font-size: 12px;
+	    font-weight: bold;
+	    line-height: 22px;
+	    text-align: left;
+	    /* vertical-align: bottom; */
+	}
+
+
+
+/*==================================== main menu ==================================*/
+.pc-header .lower{
+	background: inherit;
+}
+
+.main-nav>.main-menu>li>a {
+    position: relative;
+    display: block;
+    padding: 0 20px;
+    font-size: 13px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #767676;
+    cursor: pointer;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+.main-nav>.main-menu>li>a>*{
+	display: inline-block;
+	padding: 20px 0;
+	position: relative;
+}
+
+/*.main-nav>.main-menu>li>a:before,*/
+.main-nav>.main-menu>li>a>*:after{
+    content: "";
+    position: absolute;
+    bottom: 15px;
+    right: 0;
+    left: auto;
+    width: 0;
+    height: 2px;
+    background-color: transparent;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+/*.main-nav>.main-menu>li:hover>a:before,*/
+.main-nav>.main-menu>li:hover>a>*:after{
+    width: 100%;
+    left: 0;
+}
+
+
+.main-nav>.main-menu>li.active >a, .main-nav>.main-menu>li:hover >a {
+    color: #767676;
+}
+
+.main-nav>.main-menu>li{
+    position: relative;
+    margin: 0 0 0 1px;
+}
+
+.main-nav>.main-menu>li>a{
+    /*border-bottom: 4px solid transparent;*/
+}
+
+.main-nav>.main-menu>li.active, .main-nav>.main-menu>li:hover {
+    background: transparent;
+}
+.main-nav>.main-menu>li:hover>a,
+.main-nav>.main-menu>li.active>a{
+    /*background-color: #FF432E;*/
+	color: #767676;
+}
+
+
+.main-nav>.main-menu>li:not(:last-child)>a:before{
+	width: 0;
+}
+.main-nav>.main-menu>li:before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: -1px;
+    top: 50%;
+    transform: translate(0, -50%);
+    width: 0;
+    height: 100%;
+    background: #333;
+}
+
+
+.main-nav>.main-menu>li:first-child:before {
+	width: 0;
+}
+
+
+.main-nav .children li a {
+    position: relative;
+    display: block;
+    width: auto;
+    height: auto;
+    padding: 10px 15px 10px 15px;
+    border-top: 1px #fff solid;
+    opacity: inherit !important;
+    visibility: inherit !important;
+    cursor: pointer;
+    transition: all 0.1s ease-in-out !important;
+    -webkit-transition: all 0.1s ease-in-out !important;
+    text-align: left;
+    text-transform: initial;
+    color: #fff;
+    font-size: 14px;
+    background-color: #FF432E;
+}
+
+.main-nav .children li:hover> a {
+    background-color: #f73823;
+    color: #fff;
+}
+
+
+
+
+
+
+/*################################## END main menu ################################ */
+
+/* =================================== ASIDE STYLE ======================================= */
+	.aside-panel{
+		margin-bottom: 30px;
+	}
+	.aside-panel .panel-head {
+	    margin-bottom: 20px;
+	    /*padding-bottom: 15px;*/
+	    /*border-bottom: 1px solid #d7d7d7;*/
+	    position: relative;
+	}
+
+	.aside-panel .panel-head:before{
+		content: '';
+		display: block;
+		position: absolute;
+		bottom: -1px;
+		height: 0;
+		width: 40%;
+		background: #0070c1;
+	}
+
+
+	.aside-panel .panel-head .aside-heading{
+		margin: 0;
+		position: relative;
+	}
+	.aside-panel .panel-head .aside-heading>* {
+	    color: #3d3d3d;
+	    font-size: 16px;
+	    position: relative;
+	    text-transform: uppercase;
+	}
+	.aside-panel .panel-body{}
+
+
+
+	.aside-panel .list-as-category>li{
+	    /*border-bottom: 1px solid #e6e6e6;*/
+	    margin-bottom: 5px;
+	    padding-bottom: 5px;
+	}
+	.aside-panel .list-as-category>li:not(:last-child){}
+	.aside-panel .as-category >.title{
+		margin-bottom: 0;
+	}
+	.aside-panel .as-category .title>*{
+		font-size: 14px;
+		/*text-transform: uppercase;*/
+		font-weight: 400;
+		color: #4b4b4b;
+		display: -webkit-box;
+	    -webkit-line-clamp: 2;
+	    -webkit-box-orient: vertical;
+	    overflow: hidden;
+	}
+	.aside-panel .as-category .title>*:hover{
+	    color: #e4405f;
+	}
+	.aside-panel .list-subcategory{
+		padding-left: 30px;
+	}
+
+	.aside-panel .list-subcategory .title{
+		margin-top: 15px;
+	}
+	/*.aside-panel .as-category .thumb{
+		float: left;
+		width: 70px;
+	}
+	.aside-panel .as-category .thumb .image{
+		height: 70px;
+	}
+	.aside-panel .as-category .info{
+		float: left;
+		-webkit-width: calc(100% - 70px);
+		-moz-width: calc(100% - 70px);
+		-o-width: calc(100% - 70px);
+		-ms-width: calc(100% - 70px);
+		width: calc(100% - 70px);
+		padding-left: 10px;
+	}*/
+
+
+
+/* ===== SLIDE STYLE ===== */
+.main-slide{
+	position:relative;
+	z-index:1;
+}
+.main-slide .slide-show{}
+.main-slide .slide-show ul{}
+.main-slide .slide-show ul li{
+	/*position: relative;*/
+}
+.main-slide .slide-show ul li .image{}
+.main-slide .slide-show ul li .image img {}
+
+.slide-content{
+	position: relative;
+}
+
+.overlay-slide {
+    /*padding: 100px 0 50px 0;*/
+    color: #fff;
+    position: absolute;
+    top: 0;
+    left: 100px;
+    right: 100px;
+    bottom: 0;
+    /* width: 60%; */
+    color: #fff;
+    overflow: hidden;
+    font-family: 'Open Sans';
+    text-align: center;
+}
+.overlay-slide .icon_slide{
+	width: 140px;
+	height: 140px;
+	margin: 0 auto;
+}
+.overlay-slide .heading-slide{
+	margin-bottom: 30px;
+}
+.overlay-slide .heading-slide>*{
+    /*display: inline-block;*/
+    font-size: 18px;
+    color: var(--primary);
+    line-height: 1.5;
+    text-transform: normal !important; 
+    font-weight: 600;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Rochester';
+    color: #fff;
+    font-size: 90px;
+    line-height: 1;
+    letter-spacing: 0px;
+    text-align: center;
+
+}
+
+.overlay-slide .description {
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+    font-size: 24px;
+    line-height: 1.4;
+    letter-spacing: 0px;
+}
+
+.overlay-slide .submit>*{
+	border: 1px solid;
+	color: rgb(255, 255, 255);
+    border-color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 23px 50px;
+    background-color: rgba(0, 0, 0, 0);
+}
+.overlay-slide .submit>*:hover{
+	background: #e4405f;
+}
+
+/*.slide-content:before{
+	content:'';
+	display: block;
+	position: absolute;
+	left:0;
+	top:0;
+	width:100%;
+	height: 100%;
+	background: rgba(51, 51, 51, 0.6);
+}*/
+
+
+.main-slide .slide-show ul li .image {
+    /*height: 100vh;*/
+    height: calc(100vh - 60px - 200px);
+    height: calc(var(--vh, 1vh) * 100 - 60px - 200px);
+}
+
+@media (max-width: 959px) {
+	.main-slide .slide-show ul li .title>*{
+		font-size: 30px;
+	}
+
+	.overlay-slide{
+		padding: 0;
+		top: 50%;
+		transform: translate(0, -50%);
+	}
+
+	.overlay-slide .heading-slide>*{
+		font-size: 40px;
+		line-height: 1.2;
+	}
+
+	.overlay-slide .submit>* {
+	    padding: 15px 40px;
+	}
+}
+@media (max-width: 767px) {
+	
+
+
+	.overlay-slide .heading-slide{
+		margin-bottom: 20px;
+	}
+	.overlay-slide .heading-slide>*{
+		font-size: 35px;
+	}
+	.overlay-slide .description {
+	    font-size: 15px;
+	    line-height: 1.5;
+	    margin-bottom: 10px;
+	}
+
+	.overlay-slide .submit>* {
+	    padding: 10px 15px;
+	}
+}
+
+@media (max-width: 599px) {
+	
+	.overlay-slide .heading-slide{
+		margin-bottom: 10px;
+	}
+	.overlay-slide .heading-slide>*{
+		font-size: 30px;
+	}
+}
+@media (max-width: 479px) {
+	
+}
+@media (max-width: 374px) {
+	
+}
+
+
+
+
+
+/*============================== .hd-menu-search ==============================*/
+	.hd-menu-search{
+		position: relative;
+		padding: 10px 15px;
+		text-align: center;
+	}
+
+	.hd-menu-search .icon{
+		color: #fff;
+	}
+
+	.dropdown-search .form .input-text {
+		display: block;
+		position: relative;
+		padding: 0 25px 0 10px;
+		height: 32px;
+		width: 275px;
+		background: #fff;
+		border: none;
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+		-ms-border-radius: 5px;
+		-o-border-radius: 5px;
+		border-radius: 5px;
+		color: #333;
+		font-size: 13px;
+		line-height: 32px;
+		-webkit-transition: all .35s ease;
+		-moz-transition: all .35s ease;
+		-o-transition: all .35s ease;
+		transition: all .35s ease;
+	}
+	.dropdown-search .form .btn-submit {
+	    display: block;
+	    position: absolute;
+	    left: initial;
+	    right: 10px;
+	    top: 50%;
+	    transform: translate(0, -50%);
+	    border: none;
+	    cursor: pointer;
+	    outline: none;
+	    background: #fff;
+	    font-size: 16px;
+	}
+	.dropdown-search .form .input-text::-webkit-input-placeholder {
+	    color: #868686;
+	    font-size: 12px;
+	}
+	.dropdown-search .form .input-text::-moz-placeholder {
+	    color: #868686;
+	    font-size: 12px;
+	}
+	.dropdown-search .form .input-text:-ms-input-placeholder {
+	    color: #868686;
+	    font-size: 12px;
+	}
+	.dropdown-search .form .input-text:-moz-placeholder {
+	    color: #868686;
+	    font-size: 12px;
+	}
+
+	.dropdown-search{
+		opacity: 0;
+		visibility: hidden;
+		position: absolute;
+		top: calc(100% + 3px);
+		right: 0;
+		/*transform: translate(-81% , 0);*/
+		/*border-top: 3px solid #f96840;*/
+	    /*background: linear-gradient(to bottom, #0a5193, #1163a9 50%, #0a5193 50%, #0e61a7);*/
+		padding: 6px;
+		/*-webkit-box-shadow: 0 2px 3px rgba(0,0,0,0.4);
+		-moz-box-shadow: 0 2px 3px rgba(0,0,0,0.4);
+		-ms-box-shadow: 0 2px 3px rgba(0,0,0,0.4);
+		-o-box-shadow: 0 2px 3px rgba(0,0,0,0.4);
+		box-shadow: 0 2px 3px rgba(0,0,0,0.4);*/
+		transition: all 0.5s ease-in-out;
+	}
+
+	.dropdown-search.active {
+	    /* transform: translate(-81% , 0); */
+	    opacity: 1;
+	    visibility: visible;
+	    z-index: 99;
+	}
+
+/*================================================ FOOTER =======================================================*/
+.pc-footer{
+	color: #fff;
+	padding: 50px 0;
+	background: #403646;
+  position: relative;
+}
+
+.ft_content>*{
+  margin-bottom: 30px !important;
+}
+
+.pc-footer .ft-panel .ft-list >li:not(:last-child){
+	margin-bottom: 10px;
+}
+
+.pc-footer .ft-panel .ft-list li span:not(:last-child){
+	margin-right: 5px;
+}
+
+/*.pc-footer .ft-panel .ft-list li.hotline span:last-child{color: #ea6b48;}*/
+/*.pc-footer .ft-panel .ft-list li.email span:last-child{color: #0070c1;}*/
+.pc-footer .ft-panel .ft-list li>*{
+	color: #fff;
+	font-size: 13px;
+}
+
+.pc-footer .ft-panel .ft-list li .fa {
+    /*color: #ff9900;*/
+    font-size: 16px;
+    width: 20px;
+}
+
+.pc-footer .ft-panel .ft-list li> p{
+	margin: 0;
+}
+
+
+/* ============== ft_open ================================*/
+    .ft_open{
+        /*padding: 30px 0;*/
+    }
+    .ft_open .panel-head {
+        position: relative;
+        padding-bottom: 15px;
+        margin-bottom: 15px;
+         border-bottom: 1px solid rgba(255, 255, 255, 0.1); 
+    }
+
+    /*thêm :before => dạng kép*/
+    .ft_open .panel-head:before{
+        content: '';
+        display: block;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        /*transform: translate(-50%, 0);*/
+        width: 50px;
+        height: 2px;
+        background: #e4405f;
+    }
+
+    .ft_heading-1{
+      margin: 0;
+    }
+    .ft_heading-1>*{
+      /*display: inline-block;*/
+      font-size: 14px;
+      color: #fff;
+      line-height: initial;
+      text-transform: uppercase; 
+      font-weight: 600;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+
+
+@media (min-width: 960px) {
+   
+}
+@media (max-width: 959px) {
+   
+}
+@media (max-width: 767px) {
+  .pc-footer {
+      padding: 30px 0 0 0;
+  }
+}
+@media (max-width: 599px) {
+
+}
+@media (max-width: 479px) {
+
+}
+@media (max-width: 374px) {
+
+}
+
+
+/*############################################## END FOOTER ##################################################### */
+/* .copyright */
+.copyright{
+    padding: 30px 0;
+    background: #403646;
+    color: #fff;
+	text-align: center;
+	border-top: 1px solid #eee;
+}
+
+
+
+/*================================================ HOMEPAGE =======================================================*/
+
+.hp_commit{
+    background-color: #e4405f;
+    padding: 30px 0 10px;
+    color: #fff;
+}
+.list-commit{}
+.list-commit >li{
+  margin-bottom: 20px;
+}
+
+.list-commit .icon{
+    display: block;
+    float: left;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background: #fff;
+    color: #e4405f;
+    font-size: 30px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.list-commit .info{
+    float: left;
+    -webkit-width: calc(100% - 60px);
+    -moz-width: calc(100% - 60px);
+    -o-width: calc(100% - 60px);
+    -ms-width: calc(100% - 60px);
+    width: calc(100% - 60px);
+    padding-left: 20px;
+}
+
+.list-commit .info .title{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.list-commit .info .subtitle{
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+
+
+/*.product*/
+
+
+.mobile-hp-topprd{
+    margin-bottom: 30px;
+}
+
+
+/*.mobile-hp-topprd:before{
+    left: 0;
+    -webkit-transform: scale(-1);
+    -moz-transform: scale(-1);
+    -o-transform: scale(-1);
+    transform: scale(-1);
+}
+.mobile-hp-topprd:before,
+.mobile-hp-topprd:after{
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    width: 15px;
+    height: 40px;
+    background: rgba(255,255,255,0.85);
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(255,255,255,0)), color-stop(75%, #fff));
+    background: -webkit-linear-gradient(left, rgba(255,255,255,0) 0%, #fff 75%);
+    background: -moz-linear-gradient(left, rgba(255,255,255,0) 0%, #fff 75%);
+    background: -ms-linear-gradient(left, rgba(255,255,255,0) 0%, #fff 75%);
+    background: -o-linear-gradient(left, rgba(255,255,255,0) 0%, #fff 75%);
+    background: linear-gradient(to right, rgba(255,255,255,0) 0%, #fff 75%);
+}
+*/
+.mobile-hp-topprd .panel-head{
+    margin-bottom: 30px;
+}
+.mobile-hp-topprd .panel-head .nav-tabs{}
+.mobile-hp-topprd .panel-head .nav-tabs >li{}
+.mobile-hp-topprd .panel-head .nav-tabs >li:not(:last-child){
+    margin-right: 15px;
+}
+.mobile-hp-topprd .panel-head .nav-tabs >li>*{
+    padding: 7px 20px;
+    font-size: 12px;
+    display: block;
+    text-transform: uppercase;
+    background: #f5f5f5;
+    color: #e4405f;
+    display: block;
+    border-radius: 30px;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+.mobile-hp-topprd .panel-head .nav-tabs >li.uk-active>*{
+    background: #e4405f;
+    border-radius: 50px;
+    color: #fff;
+}
+
+.list-art{}
+.list-art>li{
+    margin-bottom: 10px;
+}
+
+
+/*==================================== article 1 mau: ảnh trái text phải ==================================*/
+
+    .article-1{
+        padding: 1rem;
+        border: 1px solid #f5f5f5;
+        border-radius: 10px;
+        -moz-transition: all 0.3s;
+        -o-transition: all 0.3s;
+        -webkit-transition: all 0.3s;
+        transition: all 0.3s;
+    }
+
+    .article-1 .thumb{
+        float: left;
+        width: 90px;
+    }
+
+    .article-1 .thumb .image {
+        /*height: calc(160px/4*3);*/
+        height: 90px;
+    }
+    .article-1 .thumb .image img{
+        border-radius: 10px;
+    }
+
+    .article-1 .info{
+        float: left;
+        -webkit-width: calc(100% - 90px);
+        -moz-width: calc(100% - 90px);
+        -o-width: calc(100% - 90px);
+        -ms-width: calc(100% - 90px);
+        width: calc(100% - 90px);
+        padding-left: 15px;
+    }
+
+    .article-1 .title{
+        /*margin-top: -2px;*/
+        margin-bottom: 5px;
+    }
+
+    /*.article-1 .info>*:not(:last-child){
+        margin-bottom: 2px;
+    }*/
+
+
+    .article-1 .info .title>*:hover,
+    .article-1 .title>*:hover{
+        /*color: #494949;*/
+        /*color: var(--color1);*/
+    }
+
+    .article-1 .info .title,
+    .article-1 .title{
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+        border-bottom: 1px solid #f5f5f5;
+    }
+
+    .article-1 .info .title *,
+    .article-1 .title *{
+        /*display: block;*/
+        color: #333;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 1.3;
+    }
+   /* .article-1 .info .title a,
+    .article-1 .title a{
+        color: #333;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 1.3;
+    }*/
+
+    .article-1 .info .meta {
+        margin: 0 0 2px;
+    }
+
+    .article-1 .info .meta .post-date {
+        font-size: 13px;
+        color: #999;
+        display: block;
+        padding-left: 15px;
+        position: relative;
+    }
+
+    .article-1 .info .meta .post-date:before{
+        content: "\f017";
+        display: block;
+        position: absolute;
+        top: 50%;
+        left: 0;
+        transform: translate(0 , -50%);
+        font-family: FontAwesome;
+        font-size: 13px;
+        color: #999;
+    }
+
+
+    .article-1 .info .description{
+        color: #555;
+    }
+
+    @media (min-width: 960px) {
+       
+    }
+    @media (max-width: 959px) {
+       
+    }
+    @media (max-width: 767px) {
+        
+    }
+    @media (max-width: 599px) {
+        
+    }
+    @media (max-width: 479px) {
+
+    }
+    @media (max-width: 374px) {
+
+    }
+/*################################## END article 1 mau: ảnh trái text phải ################################ */
+
+
+
+
+
+    
+.thumb_ratio{
+    /*width: 160px;*/
+    position: relative;
+    padding-top: 75%; /*ratio 4:3*/
+    padding-top: 56.25%; /*ratio 16:9*/
+    /*margin-bottom: 10px;*/
+}
+
+.thumb_ratio.style-43{
+    padding-top: 75%; /*ratio 4:3*/
+}
+.thumb_ratio.style-21{
+    padding-top: 50%; /*ratio 2:1*/
+}
+.thumb_ratio.style-slide{
+    padding-top: 31.25%; /*ratio 16:5*/
+}
+
+.thumb_ratio .image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+/*hp-banner*/
+
+.hp-banner{
+    padding: 150px 0;
+    color: #fff;
+}
+.hp-banner .desc{
+    font-size: 35px;
+    font-weight: 300;
+    line-height: 44px;
+}
+.hp-banner .title{
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+}
+
+/*############################################## END HOMEPAGE ##################################################### */
+
+.list-social.order-1>li{
+  margin-bottom: 5px;
+}
+
+.lg-toolbar.lg-group>*{
+  display: none;
+}
+.lg-toolbar.lg-group>.lg-close.lg-icon{
+  display: block;
+}
+
+/* .copyright */
+.copyright{
+    padding: 30px 0;
+    background: #403646;
+    color: #fff;
+  text-align: center;
+  border-top: 1px solid #eee;
+}
+
+.copyright a{
+  color: #fff;
+  display: inline-block;
+}
+
+
+
+/* homepage Student */
+    .homepage-student{
+      padding:30px 0;
+    }
+    .homepage-student .panel-head{
+      margin: 0 0 50px 0;
+    }
+    .homepage-student .panel-head .description{
+      text-align:center;
+    }
+    .homepage-student .panel-head .heading-3{}
+    .homepage-student .panel-head .heading-3 > *{}
+    
+
+    .homepage-student .panel-body .article{
+      padding: 0 30px;
+      
+      
+    }
+    .homepage-student .panel-body .content{
+      background-color: #fafafa;
+      color: #666;
+      border: #eee solid 1px;
+      position: relative;
+      transition: background-color .25s linear;
+      padding:10px;
+      height:192px;
+      margin: 0 0 20px 0;
+      cursor:pointer;
+    }
+    .homepage-student .panel-body .article .content:after {
+      content: '';
+      display: block;
+      height: 0;
+      width: 0;
+      border: 10px solid transparent;
+      border-top-color: #fafafa;
+      position: absolute;
+      bottom: -20px;
+      left: 50%;
+      -webkit-transform: translate(-50%,0);
+      -moz-transform: translate(-50%,0);
+      -ms-transform: translate(-50%,0);
+      -o-transform: translate(-50%,0);
+      transition: border-top-color .25s linear;
+    }
+    /*.homepage-student .panel-body .article:hover .content{
+      background:#f27024;
+    }
+    .homepage-student .panel-body .article:hover img{
+      border:3px solid #f27024;
+      border-radius:50%;
+      -webkit-border-radius:50%;
+      -moz-border-radius:50%;
+      -o-border-radius:50%;
+    }
+    .ho*/mepage-student .panel-body .article:hover .content *{
+      color:#fff;
+    }
+    
+    .homepage-student .panel-body .article:hover .content:after{
+        border-top-color: #f27024;
+    }
+    .homepage-student .panel-body .content *{
+      color:#333;
+      text-align:center;
+      font-size:13px;
+      margin: 0 0 30px 0;
+    }
+    .homepage-student .panel-body .thumb{
+      text-align:center;
+    }
+    .homepage-student .panel-body .thumb .image{
+      width:50px;
+      height:50px;
+      border-radius:50%;
+      -webkit-border-radius:50%;
+      -moz-border-radius:50%;
+      -o-border-radius:50%;
+      margin: 0 auto;
+    }
+    .homepage-student .panel-body .thumb .image img{
+      border-radius:50%;
+      -webkit-border-radius:50%;
+      -moz-border-radius:50%;
+      -o-border-radius:50%;
+    }
+    .homepage-student .panel-body .infor>*{
+      display: inline-block;
+    }
+    .homepage-student .panel-body .infor{
+      margin: 20px 0 0 0;
+      text-align:center;
+    }
+    .homepage-student .panel-body .infor .title{
+      text-align:center;
+      font-size: 16px;
+      color: #e4405f;
+    }
+    .homepage-student .panel-body .infor .excerpt{
+      text-align:center;
+      font-size: 13px;
+    }
+    .homepage-student .panel-body .infor .description{
+      color:#657786;
+      margin: 0 0 20px 0;
+      text-align:center;
+      font-size: 22px;
+      font-weight: 300;
+    }
+    
+    @media (max-width: 415px){
+      .homepage-student .panel-head{
+        margin:0 0 25px 0;
+      }
+    }
+
+
+.color_white{
+  color: #fff;
+}
+
+
+/*==================================== about-chefs ==================================*/
+.about-chefs{
+    position: relative;
+    padding: 80px 0;
+}
+.about-chefs:before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.about-chefs_ct{
+    position: relative;
+    z-index: 5;
+    line-height: 1.9;
+}
+
+.about-chefs_ct .desc{
+    font-size: 15px;
+}
+
+/*################################## END about-chefs ################################ */
+.btn {
+    text-align: center;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    border-radius: 3px;
+    border: 0px;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-family: "Montserrat", sans-serif;
+    padding: 8px 12px 8px;
+}
+
+.btn-white {
+    background: #fff;
+    color: #333;
+}
+
+.btn-rounded {
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    border-radius: 100px;
+    padding: 12px 30px 10px;
+}
+
+
+
+.btn-white:hover, .btn-white:focus, .btn-white.focus {
+    color: #fff;
+    background: #333;
+    border-color: #333;
+    box-shadow: 0px 2px 15px rgba(192, 153, 107, 0.25);
+}
+
+.panel-foot{
+    margin-bottom: 0;
+}
+
+
+.list-social.order-1>li> .social >a>i {
+    border-radius: 6px;
+}
+
+.mobile-list-cat{
+  background: #e4405f
+}
+.mb_hd_menu {
+    /* margin-bottom: 8px !important; */
+    background: transparent;
+    position: absolute;
+    top: calc(100%);
+    left: 0;
+    right: 0;
+    z-index: 999;
+    padding: 10px 0;
+    margin: 0;
+}
+
+.mobile-header.uk-active .mb_hd_menu {
+    background: transparent;
+}
+
+.mobile-header .mobile-hp-topprd{
+    margin-bottom: 8px !important;
+}
+.mobile-header .mobile-list-cat ul>li>* {
+    display: block;
+    color: #fff;
+    font-size: 13px;
+    padding: 10px;
+}
+.mobile-header .mobile-hp-topprd .panel-head {
+    height: auto;
+}
+.mobile-hp-topprd .panel-head .nav-tabs >li>* {
+    padding: 18px 20px;
+}
+.moblie-menu-btn,
+.moblie-menu-btn>:after, .moblie-menu-btn>:before,
+.moblie-menu-btn>* {
+    width: 32px;
+}
+.moblie-menu-btn>:before {
+    top: -11px;
+}
+.moblie-menu-btn>:after {
+    bottom: -11px;
+}
+
+.pc-header .mobile-hp-topprd .panel-head {
+    padding: 0 10px;
+}
+
+.dt_btn_viewmore{
+  text-transform: uppercase;
+  font-size: 14px;
+  display: inline-block;
+  margin-top: 20px;
+  color: #fff;
+  background: #e4405f;
+  padding: 6px 20px;
+}
+
+.dt_btn_viewmore_2{
+  text-transform: uppercase;
+  font-size: 14px;
+  display: inline-block;
+  margin-top: 10px;
+  color: #fff;
+  background: #e4405f;
+  padding: 6px 20px;
+}

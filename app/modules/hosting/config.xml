@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module>
+	<permissions>
+		<title>Blog - [Nhóm hosting]</title>
+		<item>
+			<param>hosting/backend/catalogue/view</param>
+			<description>Xem</description>
+		</item>
+		<item>
+			<param>hosting/backend/catalogue/create</param>
+			<description>Thêm</description>
+		</item>
+		<item>
+			<param>hosting/backend/catalogue/update</param>
+			<description>Sửa</description>
+		</item>
+		<item>
+			<param>hosting/backend/catalogue/delete</param>
+			<description>Xóa</description>
+		</item>
+	</permissions>
+	<permissions>
+		<title>Blog - [Chi tiết hosting]</title>
+		<item>
+			<param>hosting/backend/hosting/view</param>
+			<description>Xem</description>
+		</item>
+		<item>
+			<param>hosting/backend/hosting/create</param>
+			<description>Thêm</description>
+		</item>
+		<item>
+			<param>hosting/backend/hosting/update</param>
+			<description>Sửa</description>
+		</item>
+		<item>
+			<param>hosting/backend/hosting/delete</param>
+			<description>Xóa</description>
+		</item>
+		<item>
+			<param>hosting/backend/hosting/viewall</param>
+			<description>Xem toàn bộ</description>
+		</item>
+	</permissions>
+</module>

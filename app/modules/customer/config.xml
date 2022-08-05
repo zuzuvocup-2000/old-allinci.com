@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module>
+	<permissions>
+		<title>Nhóm - [Khách hàng]</title>
+		<item>
+			<param>customer/backend/catalogue/view</param>
+			<description>Xem</description>
+		</item>
+		<item>
+			<param>customer/backend/catalogue/create</param>
+			<description>Thêm</description>
+		</item>
+		<item>
+			<param>customer/backend/catalogue/update</param>
+			<description>Sửa</description>
+		</item>
+		<item>
+			<param>customer/backend/catalogue/delete</param>
+			<description>Xóa</description>
+		</item>
+	</permissions>
+	<permissions>
+		<title>Tài khoản - [Khách hàng]</title>
+		<item>
+			<param>customer/backend/customer/view</param>
+			<description>Xem</description>
+		</item>
+		<item>
+			<param>customer/backend/customer/create</param>
+			<description>Thêm</description>
+		</item>
+		<item>
+			<param>customer/backend/customer/update</param>
+			<description>Sửa</description>
+		</item>
+		<item>
+			<param>customer/backend/customer/delete</param>
+			<description>Xóa</description>
+		</item>
+	</permissions>
+</module>

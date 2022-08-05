@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module>
+	<permissions>
+		<title>Menu - [Nhóm Menu]</title>
+		<item>
+			<param>navigation/backend/catalogue/view</param>
+			<description>Xem</description>
+		</item>
+		<item>
+			<param>navigation/backend/catalogue/create</param>
+			<description>Thêm</description>
+		</item>
+		<item>
+			<param>navigation/backend/catalogue/update</param>
+			<description>Sửa</description>
+		</item>
+		<item>
+			<param>navigation/backend/catalogue/delete</param>
+			<description>Xóa</description>
+		</item>
+	</permissions>
+	<permissions>
+		<title>Menu - [Chi tiết Menu]</title>
+		<item>
+			<param>navigation/backend/navigation/view</param>
+			<description>Xem</description>
+		</item>
+		<item>
+			<param>navigation/backend/navigation/create</param>
+			<description>Thêm</description>
+		</item>
+		<item>
+			<param>navigation/backend/navigation/update</param>
+			<description>Sửa</description>
+		</item>
+		<item>
+			<param>navigation/backend/navigation/delete</param>
+			<description>Xóa</description>
+		</item>
+	</permissions>
+</module>

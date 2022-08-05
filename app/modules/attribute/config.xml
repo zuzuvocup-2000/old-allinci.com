@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module>
+	<permissions>
+		<title>Thuộc tính - [Nhóm thuộc tính]</title>
+		<item>
+			<param>attribute/backend/catalogue/view</param>
+			<description>Xem</description>
+		</item>
+		<item>
+			<param>attribute/backend/catalogue/create</param>
+			<description>Thêm</description>
+		</item>
+		<item>
+			<param>attribute/backend/catalogue/update</param>
+			<description>Sửa</description>
+		</item>
+		<item>
+			<param>attribute/backend/catalogue/delete</param>
+			<description>Xóa</description>
+		</item>
+	</permissions>
+	<permissions>
+		<title>Thuộc tính - [Chi tiết thuộc tính]</title>
+		<item>
+			<param>attribute/backend/attribute/view</param>
+			<description>Xem</description>
+		</item>
+		<item>
+			<param>attribute/backend/attribute/create</param>
+			<description>Thêm</description>
+		</item>
+		<item>
+			<param>attribute/backend/attribute/update</param>
+			<description>Sửa</description>
+		</item>
+		<item>
+			<param>attribute/backend/attribute/delete</param>
+			<description>Xóa</description>
+		</item>
+		<item>
+			<param>attribute/backend/attribute/viewall</param>
+			<description>Xem toàn bộ</description>
+		</item>
+	</permissions>
+</module>

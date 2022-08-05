@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module>
+	<permissions>
+		<title>Phí ship</title>
+		<item>
+			<param>ship/backend/ship/view</param>
+			<description>Xem</description>
+		</item>
+		<item>
+			<param>ship/backend/ship/create</param>
+			<description>Thêm</description>
+		</item>
+		<item>
+			<param>ship/backend/ship/update</param>
+			<description>Sửa</description>
+		</item>
+		<item>
+			<param>ship/backend/ship/delete</param>
+			<description>Xóa</description>
+		</item>
+	</permissions>
+	<permissions>
+	</permissions>
+</module>

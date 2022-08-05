@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module>
+	<permissions>
+		<title>Giao diện - [Nhóm Giao diện]</title>
+		<item>
+			<param>layout/backend/catalogue/view</param>
+			<description>Xem</description>
+		</item>
+		<item>
+			<param>layout/backend/catalogue/create</param>
+			<description>Thêm</description>
+		</item>
+		<item>
+			<param>layout/backend/catalogue/update</param>
+			<description>Sửa</description>
+		</item>
+		<item>
+			<param>layout/backend/catalogue/delete</param>
+			<description>Xóa</description>
+		</item>
+	</permissions>
+	<permissions>
+		<title>Giao diện - [Chi tiết Giao diện]</title>
+		<item>
+			<param>layout/backend/layout/view</param>
+			<description>Xem</description>
+		</item>
+		<item>
+			<param>layout/backend/layout/create</param>
+			<description>Thêm</description>
+		</item>
+		<item>
+			<param>layout/backend/layout/update</param>
+			<description>Sửa</description>
+		</item>
+		<item>
+			<param>layout/backend/layout/delete</param>
+			<description>Xóa</description>
+		</item>
+	</permissions>
+</module>

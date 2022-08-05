@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module>
+	<permissions>
+	</permissions>
+	<permissions>
+		<title>Chương trình khuyến mại</title>
+		<item>
+			<param>promotional/backend/promotional/view</param>
+			<description>Xem</description>
+		</item>
+		<item>
+			<param>promotional/backend/promotional/create</param>
+			<description>Thêm</description>
+		</item>
+		<item>
+			<param>promotional/backend/promotional/update</param>
+			<description>Sửa</description>
+		</item>
+		<item>
+			<param>promotional/backend/promotional/delete</param>
+			<description>Xóa</description>
+		</item>
+	</permissions>
+</module>

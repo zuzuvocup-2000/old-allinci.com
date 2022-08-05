@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module>
+	<permissions>
+		<title>Sản phẩm - [Nhóm sản phẩm]</title>
+		<item>
+			<param>product/backend/catalogue/view</param>
+			<description>Xem</description>
+		</item>
+		<item>
+			<param>product/backend/catalogue/create</param>
+			<description>Thêm</description>
+		</item>
+		<item>
+			<param>product/backend/catalogue/update</param>
+			<description>Sửa</description>
+		</item>
+		<item>
+			<param>product/backend/catalogue/delete</param>
+			<description>Xóa</description>
+		</item>
+	</permissions>
+	<permissions>
+		<title>Sản phẩm - [QL thương hiệu]</title>
+		<item>
+			<param>product/backend/brand/view</param>
+			<description>Xem</description>
+		</item>
+		<item>
+			<param>product/backend/brand/create</param>
+			<description>Thêm</description>
+		</item>
+		<item>
+			<param>product/backend/brand/update</param>
+			<description>Sửa</description>
+		</item>
+		<item>
+			<param>product/backend/brand/delete</param>
+			<description>Xóa</description>
+		</item>
+	</permissions>
+	<permissions>
+		<title>Sản phẩm - [Chi tiết sản phẩm]</title>
+		<item>
+			<param>product/backend/product/view</param>
+			<description>Xem</description>
+		</item>
+		<item>
+			<param>product/backend/product/create</param>
+			<description>Thêm</description>
+		</item>
+		<item>
+			<param>product/backend/product/update</param>
+			<description>Sửa</description>
+		</item>
+		<item>
+			<param>product/backend/product/delete</param>
+			<description>Xóa</description>
+		</item>
+		<item>
+			<param>product/backend/product/viewall</param>
+			<description>Xem toàn bộ</description>
+		</item>
+	</permissions>
+</module>

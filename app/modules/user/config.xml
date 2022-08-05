@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module>
+	<permissions>
+		<title>Nhóm - [Thành viên]</title>
+		<item>
+			<param>user/backend/catalogue/view</param>
+			<description>Xem</description>
+		</item>
+		<item>
+			<param>user/backend/catalogue/create</param>
+			<description>Thêm</description>
+		</item>
+		<item>
+			<param>user/backend/catalogue/update</param>
+			<description>Sửa</description>
+		</item>
+		<item>
+			<param>user/backend/catalogue/delete</param>
+			<description>Xóa</description>
+		</item>
+	</permissions>
+	<permissions>
+		<title>Tài khoản - [Thành viên]</title>
+		<item>
+			<param>user/backend/user/view</param>
+			<description>Xem</description>
+		</item>
+		<item>
+			<param>user/backend/user/create</param>
+			<description>Thêm</description>
+		</item>
+		<item>
+			<param>user/backend/user/update</param>
+			<description>Sửa</description>
+		</item>
+		<item>
+			<param>user/backend/user/delete</param>
+			<description>Xóa</description>
+		</item>
+	</permissions>
+	<permissions>
+		<title>Tài khoản - [Quyền]</title>
+		<item>
+			<param>user/backend/account/information</param>
+			<description>Thay đổi thông tin</description>
+		</item>
+		<item>
+			<param>user/backend/account/password</param>
+			<description>Thay đổi mật khẩu</description>
+		</item>
+		<item>
+			<param>user/backend/account/blocked</param>
+			<description>Chặn đăng nhập</description>
+		</item>
+	</permissions>
+</module>

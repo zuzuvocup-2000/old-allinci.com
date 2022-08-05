@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module>
+	<permissions>
+		<title>Demo - [Nhóm demo]</title>
+		<item>
+			<param>demo/backend/catalogue/view</param>
+			<description>Xem</description>
+		</item>
+		<item>
+			<param>demo/backend/catalogue/create</param>
+			<description>Thêm</description>
+		</item>
+		<item>
+			<param>demo/backend/catalogue/update</param>
+			<description>Sửa</description>
+		</item>
+		<item>
+			<param>demo/backend/catalogue/delete</param>
+			<description>Xóa</description>
+		</item>
+	</permissions>
+	<permissions>
+		<title>Demo - [Chi tiết demo]</title>
+		<item>
+			<param>demo/backend/demo/view</param>
+			<description>Xem</description>
+		</item>
+		<item>
+			<param>demo/backend/demo/create</param>
+			<description>Thêm</description>
+		</item>
+		<item>
+			<param>demo/backend/demo/update</param>
+			<description>Sửa</description>
+		</item>
+		<item>
+			<param>demo/backend/demo/delete</param>
+			<description>Xóa</description>
+		</item>
+	</permissions>
+</module>

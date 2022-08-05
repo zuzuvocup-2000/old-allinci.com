@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module>
+	<permissions>
+		<title>Blog - [Nhóm bài viết]</title>
+		<item>
+			<param>article/backend/catalogue/view</param>
+			<description>Xem</description>
+		</item>
+		<item>
+			<param>article/backend/catalogue/create</param>
+			<description>Thêm</description>
+		</item>
+		<item>
+			<param>article/backend/catalogue/update</param>
+			<description>Sửa</description>
+		</item>
+		<item>
+			<param>article/backend/catalogue/delete</param>
+			<description>Xóa</description>
+		</item>
+	</permissions>
+	<permissions>
+		<title>Blog - [Chi tiết bài viết]</title>
+		<item>
+			<param>article/backend/article/view</param>
+			<description>Xem</description>
+		</item>
+		<item>
+			<param>article/backend/article/create</param>
+			<description>Thêm</description>
+		</item>
+		<item>
+			<param>article/backend/article/update</param>
+			<description>Sửa</description>
+		</item>
+		<item>
+			<param>article/backend/article/delete</param>
+			<description>Xóa</description>
+		</item>
+		<item>
+			<param>article/backend/article/viewall</param>
+			<description>Xem toàn bộ</description>
+		</item>
+	</permissions>
+</module>

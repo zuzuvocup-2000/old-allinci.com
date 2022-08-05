@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module>
+	<permissions>
+		<title>Hệ Thống - [Cấu hình]</title>
+		<item>
+			<param>general/backend/general/view</param>
+			<description>Cấu hình hệ thống</description>
+		</item>
+		<item>
+			<param>general/backend/slide/view</param>
+			<description>Banner - Slide</description>
+		</item>
+	</permissions>
+	<permissions>
+		
+	</permissions>
+</module>

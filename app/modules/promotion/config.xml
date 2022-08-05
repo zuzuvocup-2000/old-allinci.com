@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module>
+	<permissions>
+		<title>Promotion - [Nhóm Promotion]</title>
+		<item>
+			<param>promotion/backend/catalogue/view</param>
+			<description>Xem</description>
+		</item>
+		<item>
+			<param>promotion/backend/catalogue/create</param>
+			<description>Thêm</description>
+		</item>
+		<item>
+			<param>promotion/backend/catalogue/update</param>
+			<description>Sửa</description>
+		</item>
+		<item>
+			<param>promotion/backend/catalogue/delete</param>
+			<description>Xóa</description>
+		</item>
+	</permissions>
+	<permissions>
+		<title>Promotion - [Chi tiết Promotion]</title>
+		<item>
+			<param>promotion/backend/promotion/view</param>
+			<description>Xem</description>
+		</item>
+		<item>
+			<param>promotion/backend/promotion/create</param>
+			<description>Thêm</description>
+		</item>
+		<item>
+			<param>promotion/backend/promotion/update</param>
+			<description>Sửa</description>
+		</item>
+		<item>
+			<param>promotion/backend/promotion/delete</param>
+			<description>Xóa</description>
+		</item>
+		<item>
+			<param>promotion/backend/promotion/viewall</param>
+			<description>Xem toàn bộ</description>
+		</item>
+	</permissions>
+</module>

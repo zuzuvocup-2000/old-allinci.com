@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module>
+	<permissions>
+		<title>Tag - [Chủ đề]</title>
+		<item>
+			<param>tag/backend/tag/view</param>
+			<description>Xem</description>
+		</item>
+		<item>
+			<param>tag/backend/tag/create</param>
+			<description>Thêm</description>
+		</item>
+		<item>
+			<param>tag/backend/tag/update</param>
+			<description>Sửa</description>
+		</item>
+		<item>
+			<param>tag/backend/tag/delete</param>
+			<description>Xóa</description>
+		</item>
+		<item>
+			<param>tag/backend/tag/viewall</param>
+			<description>Xem toàn bộ</description>
+		</item>
+	</permissions>
+	<permissions>
+		
+	</permissions>
+</module>

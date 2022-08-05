@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module>
+	<permissions>
+		<title>QL kho</title>
+		<item>
+			<param>stock/backend/stock/view</param>
+			<description>Xem</description>
+		</item>
+		<item>
+			<param>stock/backend/stock/create</param>
+			<description>Thêm</description>
+		</item>
+		<item>
+			<param>stock/backend/stock/update</param>
+			<description>Sửa</description>
+		</item>
+		<item>
+			<param>stock/backend/stock/delete</param>
+			<description>Xóa</description>
+		</item>
+	</permissions>
+	<permissions>
+	</permissions>
+</module>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module>
+	<permissions>
+		<title>Nhóm lịch</title>
+		<item>
+			<param>booking/backend/catalogue/view</param>
+			<description>Xem</description>
+		</item>
+		<item>
+			<param>booking/backend/catalogue/create</param>
+			<description>Thêm</description>
+		</item>
+		<item>
+			<param>booking/backend/catalogue/update</param>
+			<description>Sửa</description>
+		</item>
+		<item>
+			<param>booking/backend/catalogue/delete</param>
+			<description>Xóa</description>
+		</item>
+	</permissions>
+	<permissions>
+		<title>Chi tiết lịch</title>
+		<item>
+			<param>booking/backend/booking/view</param>
+			<description>Xem</description>
+		</item>
+		<item>
+			<param>booking/backend/booking/view</param>
+			<description>Xem</description>
+		</item>
+	</permissions>
+	
+</module>

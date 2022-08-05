@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module>
+	<permissions>
+		<title>nội dung tĩnh - [Nhóm nội dung tĩnh]</title>
+		<item>
+			<param>page/backend/catalogue/view</param>
+			<description>Xem</description>
+		</item>
+		<item>
+			<param>page/backend/catalogue/create</param>
+			<description>Thêm</description>
+		</item>
+		<item>
+			<param>page/backend/catalogue/update</param>
+			<description>Sửa</description>
+		</item>
+		<item>
+			<param>page/backend/catalogue/delete</param>
+			<description>Xóa</description>
+		</item>
+	</permissions>
+	<permissions>
+		<title>nội dung tĩnh - [Chi tiết nội dung tĩnh]</title>
+		<item>
+			<param>page/backend/page/view</param>
+			<description>Xem</description>
+		</item>
+		<item>
+			<param>page/backend/page/create</param>
+			<description>Thêm</description>
+		</item>
+		<item>
+			<param>page/backend/page/update</param>
+			<description>Sửa</description>
+		</item>
+		<item>
+			<param>page/backend/page/delete</param>
+			<description>Xóa</description>
+		</item>
+		<item>
+			<param>page/backend/page/viewall</param>
+			<description>Xem toàn bộ</description>
+		</item>
+	</permissions>
+</module>

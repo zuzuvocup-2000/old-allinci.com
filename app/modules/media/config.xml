@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module>
+	<permissions>
+		<title>Media - [Nhóm Media]</title>
+		<item>
+			<param>media/backend/catalogue/view</param>
+			<description>Xem</description>
+		</item>
+		<item>
+			<param>media/backend/catalogue/create</param>
+			<description>Thêm</description>
+		</item>
+		<item>
+			<param>media/backend/catalogue/update</param>
+			<description>Sửa</description>
+		</item>
+		<item>
+			<param>media/backend/catalogue/delete</param>
+			<description>Xóa</description>
+		</item>
+	</permissions>
+	<permissions>
+		<title>Media - [Chi tiết Media]</title>
+		<item>
+			<param>media/backend/media/view</param>
+			<description>Xem</description>
+		</item>
+		<item>
+			<param>media/backend/media/create</param>
+			<description>Thêm</description>
+		</item>
+		<item>
+			<param>media/backend/media/update</param>
+			<description>Sửa</description>
+		</item>
+		<item>
+			<param>media/backend/media/delete</param>
+			<description>Xóa</description>
+		</item>
+		<item>
+			<param>media/backend/media/viewall</param>
+			<description>Xem toàn bộ</description>
+		</item>
+	</permissions>
+</module>

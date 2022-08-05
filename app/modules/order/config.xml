@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module>
+	<permissions>
+		<title>Đơn hàng - [Nhóm đơn hàng]</title>
+		<item>
+			<param>order/backend/catalogue/view</param>
+			<description>Xem</description>
+		</item>
+		<item>
+			<param>order/backend/catalogue/create</param>
+			<description>Thêm</description>
+		</item>
+		<item>
+			<param>order/backend/catalogue/update</param>
+			<description>Sửa</description>
+		</item>
+		<item>
+			<param>order/backend/catalogue/delete</param>
+			<description>Xóa</description>
+		</item>
+	</permissions>
+	<permissions>
+		<title>Đơn hàng - [Chi tiết đơn hàng]</title>
+		<item>
+			<param>order/backend/order/view</param>
+			<description>Xem</description>
+		</item>
+		<item>
+			<param>order/backend/order/create</param>
+			<description>Thêm</description>
+		</item>
+		<item>
+			<param>order/backend/order/update</param>
+			<description>Sửa</description>
+		</item>
+		<item>
+			<param>order/backend/order/delete</param>
+			<description>Xóa</description>
+		</item>
+		<item>
+			<param>order/backend/order/viewall</param>
+			<description>Xem toàn bộ</description>
+		</item>
+	</permissions>
+</module>
